@@ -12,6 +12,10 @@ class TestCase(unittest.TestCase):
         expected = "Hola World"
         self.assertEqual(task.my_func(), expected)
 
+    def test2(self):
+            expected = "Hi World"
+            self.assertEqual(task.my_func(), expected)
+
 
 if __name__ == 'main':
     unittest.main()
